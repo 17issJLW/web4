@@ -1,0 +1,279 @@
+﻿#menu {
+	width: 100%;
+ 	background-color: #FFF;
+	}
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFF;
+	width: 100%;
+	z-index: 20;
+	display:inline-block;
+
+}
+
+#menu li{
+	display: block;
+	color: #333333;
+	text-align: center;
+	float: right;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#menu #search-form input{
+	border-radius:30px;
+	border:0;
+	background-color:transparent;
+	border-style:none;
+	outline:none;
+	
+	}
+#menu #search{
+	border-radius:30px;
+	border:1px;
+	border-color:#CCC;
+	border-style: solid;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 5px;
+	}
+	
+#tital {
+	text-align: center;
+	position: absolute;
+	left: 33%;
+	top: 99px;
+	width: 181px;
+	height: 109px;
+}
+
+#tital .left{
+	text-align: center;
+	position: absolute;
+	left: -483px;
+	top: -288px;
+	width: 312px;
+	height: 238px;
+	}
+
+.introduce {
+	text-align: center;
+	background-color: #FFF;
+	position: absolute;
+	top: 422px;
+	left: 37%;
+	font-family: Arial;
+}
+#point1 {
+	text-align: center;
+	position: absolute;
+	left: -201px;
+	top: 10px;
+	width: 259px;
+	}
+	
+#point2 {
+	text-align: center;
+	position: absolute;
+	left: 108px;
+	top: 10px;
+	width: 252px;
+	}
+
+#point3 {
+	text-align: center;
+	position: absolute;
+	left: 424px;
+	top: 11px;
+	width: 234px;
+	height: 149px;
+	}
+	
+	
+.sponsors {
+	text-align: center;
+	background-color: #E8E8E8;
+	position: absolute;
+	top: 799px;
+	left: 5px;
+	width: 100%;
+	height: 306px;
+}
+
+
+li a:hover:not(.active) {
+	background-color: #FFF;
+	font-size: 16px;
+	color: #333333;
+}
+
+
+.head {
+	position: absolute;
+	left: 584px;
+	top: 244px;
+	height: 199px;
+	width: 248px;
+}
+
+.head li{
+	float:left;
+}
+
+#end {
+	position: absolute;
+	top: 1370px;
+	left: -2px;
+	width: 100%;
+	text-align: center;
+	height: 159px;
+	background-color: #727F80;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+#tital p {
+	font-family: "华文行楷";
+	font-size: 40px;
+	text-align: left;
+	font-weight: bold;
+}
+#vue{
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 113px;
+	height: 43px;
+	background-color: #FFFFFF;
+	color: #333;
+}
+#tital .inner .left{
+	position: absolute;
+	left: -47px;
+	top: 5px;
+	text-align: center;
+	}
+#tital .inner .right h1{
+	position: absolute;
+	left: 251px;
+	top: 16px;
+	text-align: center;
+	width: 354px;
+	
+	}
+#tital .inner .right h1 {
+	font-size: 40px;
+	text-align: left;
+	font-family: "方正兰亭超细黑简体";
+}
+#tital .inner .right .button{
+	position: absolute;
+	left: 246px;
+	top: 158px;
+	text-align: center;
+	width: 100px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: "华文行楷";
+	background-color: #4FC08D;
+	border-radius: 30px;
+	color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-style:none;
+	}
+#tital .inner .right .button2{
+	position: absolute;
+	left: 428px;
+	top: 158px;
+	text-align: center;
+	width: 100px;
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	border-radius: 30px;
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-color: #4FC08D;
+	border-width: 2px;
+	border-style: solid;
+	color: #4FC08D;
+	}
+	
+.introduce h2 {
+	color: #4FC08D;
+	font-family: "方正兰亭超细黑简体";
+	font-size: 18px;
+}
+.introduce p {
+	color: #999;
+	font-family: "华文宋体";
+	font-size: 14px;
+}
+
+#innersp{
+	position: absolute;
+	left: -1px;
+	top: 652px;
+	text-align: center;
+	width: 100%;
+	background-color: #EAEAEA;
+	height: 174px;
+	}
+#innersp h3 {
+	font-size: 18px;
+	color: #666;
+}
+#picturesp{
+	position: absolute;
+	left: 1px;
+	top: 820px;
+	display: inline-block;
+	width: 100%;
+	letter-spacing: 30px;
+	background-color: #EAEAEA;
+	text-align: center;
+	height: 81px;
+	
+	}
+#becomesp {
+	position: absolute;
+	text-align: center;
+	top: 897px;
+	left: 2px;
+	background-color: #EAEAEA;
+	width: 100%;
+	height: 95px;	
+	}
+#becomesp a{
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left: 25px;
+	padding-right: 23px;
+	border-color: #4FC08D;
+	border-width:2px;
+	border-style:solid;
+	color: #4FC08D;
+	
+	}
+#sp2{
+	position: absolute;
+	text-align: center;
+	top: 991px;
+	left: 2px;
+	font-size: 18px;
+	background-color: #EAEAEA;
+	width: 100%;
+	color: #666;
+	
+	}

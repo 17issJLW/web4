@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link href="StyleSheet.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	
+}
+a:active {
+	text-decoration: none;
+	font-size: 18px;
+	background-position: center bottom;
+}
+</style>
+<meta charset="utf-8" />
+<title>Vue.js</title>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script language="JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_1013190307_0) return;
+      window.mm_menu_1013190307_0 = new Menu("root",162,26,"华文楷体",20,"#333333","#41B883","#FFFFFF","#FFFFFF","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1013190307_0.addMenuItem("教程");
+  mm_menu_1013190307_0.addMenuItem("API");
+  mm_menu_1013190307_0.addMenuItem("风格指南（beta）");
+  mm_menu_1013190307_0.addMenuItem("示例");
+   mm_menu_1013190307_0.hideOnMouseOut=true;
+   mm_menu_1013190307_0.bgColor='#FFFFFF';
+   mm_menu_1013190307_0.menuBorder=1;
+   mm_menu_1013190307_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_1013190307_0.menuBorderBgColor='#CCCCCC';
+
+  window.mm_menu_1013190944_0 = new Menu("root",99,26,"华文楷体",20,"#333333","#41B883","#FFFFFF","#FFFFFF","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1013190944_0.addMenuItem("Roadmap");
+  mm_menu_1013190944_0.addMenuItem("帮助");
+  mm_menu_1013190944_0.addMenuItem("论坛");
+  mm_menu_1013190944_0.addMenuItem("聊天室");
+  mm_menu_1013190944_0.addMenuItem("模板");
+   mm_menu_1013190944_0.hideOnMouseOut=true;
+   mm_menu_1013190944_0.bgColor='#FFFFFF';
+   mm_menu_1013190944_0.menuBorder=1;
+   mm_menu_1013190944_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_1013190944_0.menuBorderBgColor='#CCCCCC';
+
+  window.mm_menu_1013191207_0 = new Menu("root",214,26,"华文楷体",20,"#333333","#41B883","#FFFFFF","#FFFFFF","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1013191207_0.addMenuItem("商店");
+  mm_menu_1013191207_0.addMenuItem("在OpenCollective支持我们");
+  mm_menu_1013191207_0.addMenuItem("在Pareon支持Evan");
+   mm_menu_1013191207_0.hideOnMouseOut=true;
+   mm_menu_1013191207_0.bgColor='#FFFFFF';
+   mm_menu_1013191207_0.menuBorder=1;
+   mm_menu_1013191207_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_1013191207_0.menuBorderBgColor='#CCCCCC';
+
+  window.mm_menu_1013191424_0 = new Menu("root",88,26,"华文楷体",20,"#333333","#41B883","#FFFFFF","#FFFFFF","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1013191424_0.addMenuItem("English");
+  mm_menu_1013191424_0.addMenuItem("日本语");
+   mm_menu_1013191424_0.hideOnMouseOut=true;
+   mm_menu_1013191424_0.bgColor='#FFFFFF';
+   mm_menu_1013191424_0.menuBorder=1;
+   mm_menu_1013191424_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_1013191424_0.menuBorderBgColor='#CCCCCC';
+
+mm_menu_1013191424_0.writeMenus();
+} // mmLoadMenus()
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+//-->
+</script>
+<script language="JavaScript" src="mm_menu.js"></script>
+</head>
+<body>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<div id="vue">
+  <h2>Vue.js</h2>
+</div>
+<div id="menu">
+  <ul>
+    <li><a>参与翻译</a></li>
+    <li><a name="link5" id="link5" onMouseOver="MM_showMenu(window.mm_menu_1013191424_0,-10,40,null,'link5')" onMouseOut="MM_startTimeout();">多语言</a></li>
+    <li><a name="link4" id="link4" onMouseOver="MM_showMenu(window.mm_menu_1013191207_0,-10,40,null,'link4')" onMouseOut="MM_startTimeout();">支持Vue</a></li>
+    <li><a>团队</a></li>
+    <li><a name="link2" id="link2" onMouseOver="MM_showMenu(window.mm_menu_1013190944_0,-10,40,null,'link2')" onMouseOut="MM_startTimeout();">生态系统</a></li>
+    <li><a name="link3" id="link1" onMouseOver="MM_showMenu(window.mm_menu_1013190307_0,-10,40,null,'link3')" onMouseOut="MM_startTimeout();">学习</a></li>
+    <li>
+    <div id="search" onMouseOut="MM_changeProp('search','','borderColor','#E8E8E8','DIV')">
+      <form id="search-form">
+      	<img src="fangda.png" width="17" height="16">
+        <input type="text" class="search-query st-default-search-input" id="search-query-nav" onClick="MM_changeProp('search','','borderColor','#4FC08D','DIV')">
+      </form>
+     </div>
+    </li>
+  </ul>
+</div>
+<div id="tital">
+  <div class="inner">
+    <div class="left"> <img src="logo.png" width="174" height="209"> </div>
+    <div class="right">
+      <h1> 渐进式<br>
+        JavaScript 框架 </h1>
+      <p> <button class="button">起步</button> <button class="button2">GITHUB</button> </p>
+    </div>
+  </div>
+</div>
+<div class="introduce">
+  <div id="point1">
+    <h2>易用</h2>
+    <p>已经会了 HTML、CSS、JavaScript？即刻阅读指南开始构建应用！</p>
+  </div>
+  <div id="point2">
+    <h2>灵活</h2>
+    <p>不断繁荣的生态系统，可以在一个库和一套完整框架之间自如伸缩。</p>
+  </div>
+  <div id="point3">
+    <h2>高效</h2>
+    <p> 20kB min+gzip 运行大小<br>
+      超快虚拟 DOM <br>
+      最省心的优化 </p>
+  </div>
+</div>
+<div id="sponsors">
+  <div id="innersp">
+    <h3 onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)">Patreon 赞助者</h3>
+    <br>
+    <br>
+    <img src="sp2.png" width="143" height="62" onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)"> </div>
+  <div id="picturesp"> <br>
+      <img src="stdlib.png" width="114" height="33" onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)"> <img src="deepstream.png" width="142" height="32" onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)"> </div>
+  <div id="becomesp"><br>
+      <br>
+    <a onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)">成为赞助者！</a></div>
+  <div id="sp2">
+    <h3>OpenCollective 赞助者</h3>
+    <h4>白金赞助者</h4>
+    <br>
+    <img src="sp1.png" width="120" height="51" onload="MM_effectAppearFade(this, 1000, 40, 100, false)"> <br>
+    <h4>黄金赞助者</h4>
+    <table width="482" height="102" align="center" onMouseOver="MM_effectAppearFade(this, 1000, 40, 100, false)">
+      <tr>
+        <td><img src="h2.png" width="120" height="51"></td>
+        <td><img src="h1.png" width="50" height="51"></td>
+        <td><img src="h3.png" width="51" height="51"></td>
+        <td><img src="sp1.png" width="120" height="51"></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+  </div>
+</div>
+<div id="end"> <a><img src="shuttleworth.png" width="200px" height="78"> </a> <br>
+    <p>遵循 <a>MIT 开源协议</a><br>
+      Copyright &copy; 2014-2017 Evan You</p>
+</div>
+</body>
+</html>
